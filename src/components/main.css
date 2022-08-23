@@ -1,0 +1,223 @@
+.spec span {
+  color: brown;
+  text-decoration: none;
+  font-size: 1.7rem;
+  margin: 15px;
+}
+
+.cont-img {
+  margin: 15px 0 10px 15px;
+}
+
+.artiqle {
+  font-size: 10px;
+  color: grey;
+}
+
+.price {
+  font-size: 0.84rem;
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+span {
+  font-size: 0.85rem;
+}
+
+.full-res {
+  margin-left: 1rem;
+  color: aliceblue;
+}
+
+#conclusion {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(182, 181, 181);
+  opacity: 0.93;
+}
+
+.ord {
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  width: 100%;
+  color: aliceblue !important;
+  text-decoration: none;
+}
+
+.order {
+  color: black;
+  font-size: large;
+}
+
+.btn {
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.ord {
+  color: black;
+  text-align: center;
+  margin: 1.2rem;
+}
+
+.ord span {
+  font-size: 0.9rem;
+}
+
+.round-pl {
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+}
+
+.round-mn {
+  height: 2rem;
+  width: 2rem;
+}
+
+.desc {
+  width: 40%;
+}
+
+#fixedContainer {
+  position: fixed;
+}
+
+desc-conc {
+  position: relative;
+}
+
+.description span {
+  padding-right: 15px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .ord span {
+    font-size: 1.3rem;
+  }
+
+  .order-table {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1.123rem;
+  }
+  #conclusion {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.grey {
+  background-color: rgb(182, 181, 181);
+}
+
+.as {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 6px;
+}
+
+.space {
+  height: 5rem;
+  border-style: none;
+}
+
+.full-price {
+  margin-left: 15px;
+}
+
+.w-9 {
+  width: 9%;
+}
+
+.inp {
+  height: 2.2rem;
+}
+
+.pic {
+  width: 7rem;
+}
+
+.forms {
+  margin-right: 15px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.heading {
+  display: contents !important;
+  height: 0;
+}
+
+.pic-high {
+  width: 25rem;
+}
+
+.modal-content {
+  width: fit-content;
+}
+
+.modal {
+  display: flex !important;
+  justify-content: center;
+}
+
+.modal-dialog {
+  align-self: center;
+}
+
+.modal-body {
+  padding: 0.2rem;
+}
+
+form p {
+  font-size: 0.7rem;
+  margin-left: 15px;
+}
+
+.css-b62m3t-container {
+  margin-top: 1.5rem !important;
+}
